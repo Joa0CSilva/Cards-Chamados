@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./main.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Sistema de Funcionários</title>
+</head>
+<body>
+
+    <h1>Sistema de Chamados</h1>
+    <hr>
+    <input type="text"
+        id="pesquisa"
+        placeholder="Pesquisar por usuário">
+
+        <p>Prioridade:</p>
+
+        <select id="prioridade">
+        <option>Todas</option>
+        <option>Crítica</option>
+        <option>Alta</option>
+        <option>Média</option>
+        <option>Baixa</option>
+        </select>
+
+        <p>Status:</p>
+
+        <select id="status">
+        <option>Todos</option>
+        <option>Aberto</option>
+        <option>Em progresso</option>
+        <option>Fechado</option>
+        </select>
+
+        <div id="cards"></div>
+</body>
+</html>
